@@ -1,6 +1,6 @@
 const InitialState = {
   items: [],
-  isLoaded: false
+  isLoading: true
 };
 
 const foods = (state = InitialState, action) => {
@@ -8,6 +8,12 @@ const foods = (state = InitialState, action) => {
     return{
       ...state,
       items: action.payload
+    }
+  }
+  if(action.type === 'SET_IS_LOADING'){
+    return{
+      ...state,
+      isLoading: action.payload
     }
   }
   return state

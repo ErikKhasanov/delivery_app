@@ -1,0 +1,40 @@
+{
+  "foods": [
+    {
+      "id": 7,
+      "category": 2,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/334270325_m650_f777fa6438a5562babadcdd060475e9ec1e713e05838d9a922739c7965b9d635.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Колбасная нарезка",
+      "weight": "250/80 г",
+      "description": "Тамбовский окорок, колбаса пеперони, авокадо, горчица зернистая, сыр сливочный, маслины, перец болгарский, зелень, хлеб",
+      "price": 619
+    },
+    {
+      "id": 8,
+      "category": 2,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/315168412_m650_43b026519ac47c9a33e864ba9f3ecdaf3b26921e8d1d08e16c71da4e48c2d54f.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Кесадилья с говядиной",
+      "weight": "415/150 г",
+      "description": "Блюдо мексиканской кухни с фасолью. Подается с грибным соусом, сметаной и пряным соусом",
+      "price": 619
+    },
+    {
+      "id": 9,
+      "category": 2,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/315168413_m650_ec00a4d82682ac5f3b7bfb4a7015ae8443c78f186aa4db13fe9e4b304d5301ef.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Кесадилья с курицей",
+      "weight": "415/150 г",
+      "description": "Блюдо мексиканской кухни с фасолью. Подается с грибным соусом, сметаной и пряным соусом",
+      "price": 529
+    }
+  ]
+}

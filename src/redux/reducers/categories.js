@@ -1,10 +1,10 @@
 const InitialState = {
   isLoading: false,
   items: [],
-  selectedCategory: null,
+  selectedCategory: 0,
 };
 
-const foods = (state = InitialState, action) => {
+const categories = (state = InitialState, action)  => {
   if(action.type === 'SET_CATEGORIES'){
     return{
       ...state,
@@ -26,4 +26,4 @@ const foods = (state = InitialState, action) => {
   return state
 }
 
-export default foods;
+export default categories;

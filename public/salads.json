@@ -1,0 +1,40 @@
+{
+  "foods": [
+    {
+      "id": 10,
+      "category": 3,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/315168424_m650_9ee3d71657f5002227a51b72db3fafed285533999bd67ccc59fb7df2b4e17d93.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Салат с слабосоленой семгой",
+      "weight": "360/50 г",
+      "description": "Семга слаболеная, картофель по-деревенски, яйцо отварное, маслины, помидоры черри, редис, руккола, лук красный, морковь, каперцы, хлеб, соус горчичный",
+      "price": 689
+    },
+    {
+      "id": 11,
+      "category": 3,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/315168425_m650_e929c6760a2bbb880d8225eefcbbb5e70e12bb4aee35a936f1851154b302287e.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Салат с медальонами из говядины",
+      "weight": "430/50/30 г",
+      "description": "Микс салата, авокадо, огурцы, томаты, говядина, лук красный, яйцо, соус медово-горчичный, соус песто, лук жареный",
+      "price": 689
+    },
+    {
+      "id": 12,
+      "category": 3,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/36931/315703515_m650_938c02c0f3dcd1e2d95ce266462234bddaf77a5ae750d5f040abc64cb8551967.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Салат в азиатском стиле",
+      "weight": "440/50 г",
+      "description": "Салат из куриной грудки обжаренной с соусом терияки, микс салата, редис, томаты, яйцо, кунжут. Подается с горчичным соусом",
+      "price": 689
+    }
+  ]
+}

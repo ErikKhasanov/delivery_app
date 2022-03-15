@@ -1,0 +1,76 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "category": 1,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/325952856_m650_41be4083315ee2f0c1ebdb6076e15dc05a282a4b50dd86f6d781535b9af4b7c4.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Сэндвич с говядиной и картофель фри",
+      "weight": "500/140 г",
+      "description": "Болтунья из 3-х яиц со шпинатом, тамбовким окороком, мясным хлебом из курицы, картофельными драниками, томатами черри и сыром пармезан. Подается с тостами с сыром, пряным томатным соусом и панкейками",
+      "price": 489
+    },
+    {
+      "id": 2,
+      "category": 1,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/315168430_m650_bace9da3307d7ce8d4f6e3d01e34197b6461807b42c3bd92a683d7dc78d68e99.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Сэндвич с говядиной и картофель фри",
+      "weight": "300 г",
+      "description": "Салат с курицей, томатами черри, гренками,сыром пармезан и соусом цезарь",
+      "price": 459
+    },
+    {
+      "id": 3,
+      "category": 1,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/36931/315703523_m650_12b28ea5933141221fdb9fdfb6172fd8bf9b4e6182295a38da4a9e78165002f7.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Суп чечевичный с индейкой",
+      "weight": "350 г",
+      "description": "Пикантный суп с чечевицей. Подается с индейкой, сметаной и жареным луком",
+      "price": 339
+    },
+    {
+      "id": 4,
+      "category": 1,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/315168435_m650_90a3a6b5a29d7e609404521f1be3897a1ecbf17131630120e82b7165e02efad4.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Грибной крем-суп",
+      "weight": "350 г",
+      "description": "Сливочный крем-суп из свежих грибов. Подается с хрустящими гренками",
+      "price": 339
+    },
+    {
+      "id": 5,
+      "category": 1,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/335344792_m650_0abd3a148b34610d977607155e46b0bea9fdd63eba307142b282dbbf7042bc3e.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Солянка",
+      "weight": "350 г",
+      "description": "Традиционный солено-кисло-острый суп \"Солянка\" с копченостями, солеными огурцами и маслинами. Подается со сметаной.",
+      "price": 339
+    },
+    {
+      "id": 6,
+      "category": 1,
+      "img": {
+        "url": "https://www.delivery-club.ru/media/cms/relation_product/35822/315168443_m650_5d8a85bde27d93baca691bdabd1ef901edc3d5720cca1d30e9f685958208e70e.jpg?resize=fit&width=1300&height=544&gravity=ce&out=webp",
+        "alt": ""
+      },
+      "name": "Курица в кисло-сладком соусе",
+      "weight": "370 г",
+      "description": "Куриные стрипцы с сухарях панко. Подаются в кисло-сладком соусе с картофелем по-деревенски",
+      "price": 489
+    }
+  ]
+}

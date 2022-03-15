@@ -1,11 +1,19 @@
 import React from 'react';
+import {useDispatch} from "react-redux";
+import {setCart} from '../../redux/actions/cart';
 import Button from "../Button/Button";
 
 import classes from './Good.module.scss'
 
 const Good = ({id, img, name, weight, description, price}) => {
+    const dispatch = useDispatch();
+
+    const handleClick = () => {
+        dispatch(setCart({id: id, price: price}))
+    }
+
   return (
-    <div className={classes.good}>
+    <div className={classes.good} onClick={handleClick}>
       <div className={classes.good__thumbnail} style={{'backgroundImage': `url(${img.url})`}}/>
       <div className={classes.good__body}>
         <div className={classes.good__body__inner}>

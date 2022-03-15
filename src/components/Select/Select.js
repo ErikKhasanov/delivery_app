@@ -1,26 +1,21 @@
-import React, {useState} from 'react';
+import React, {useState, memo, useCallback} from 'react';
+import SelectDropDown from "./SelectDropDown";
 
 import classes from './Select.module.scss'
 
-const Select = ({label, values, value, onSelect}) => {
-    const [isVisible, setIsVisible] = useState(false);
+const Select = memo(function Select({label, values, value, onSelect}) {
+	const [isVisible, setIsVisible] = useState(false);
 
-    const handleDropdown = () => {
-        setIsVisible(state => (!state))
-    }
+	const handleDropdown = useCallback(() => {
+		setIsVisible(state => (!state))
+	}, [setIsVisible])
 
-    return (
-        <div className={`${classes.select} ${isVisible ? classes.select__active : ''}`} onClick={handleDropdown}>
-            <div className={classes.select__label}>{label}: <span>{value.label.toLowerCase()}</span></div>
-            <div className={classes.select__dropdown}>
-                <ul className={classes.list}>
-                    {values.map((value, index) => (
-                        <li className={classes.element} key={index} onClick={() => onSelect(value.sortBy)}>{value.label}</li>
-                    ))}
-                </ul>
-            </div>
-        </div>
-    );
-};
+	return (
+		<div className={`${classes.select} ${isVisible ? classes.select__active : ''}`} onClick={handleDropdown}>
+			<div className={classes.select__label}>{label}: <span>{value.label.toLowerCase()}</span></div>
+			{isVisible && <SelectDropDown values={values} onSelect={onSelect} handleClickOutside={() => setIsVisible(false)}/>}
+		</div>
+	);
+})
 
 export default Select;
