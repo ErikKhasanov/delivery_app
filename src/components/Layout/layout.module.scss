@@ -1,0 +1,11 @@
+.pageLayout{
+  background-color: #fff;
+  padding: 40px;
+  &__inner{
+    background-color: #f6f6f6;
+    border-radius: 7px;
+    margin: auto;
+    padding: 7px 25px;
+    box-shadow: #00000020 10px 5px 20px 15px;
+  }
+}
