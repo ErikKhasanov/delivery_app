@@ -1,4 +1,3 @@
-import {fetchFoods} from "./foods";
 
 
 export const setCategories = (items) => ({
@@ -6,8 +5,7 @@ export const setCategories = (items) => ({
 	payload: items
 });
 
-export const setSelectedCategory = (item) => (dispatch) => {
-	dispatch(fetchFoods(item))
+export const setSelectedCategory = (item) => {
 	return ({
 		type: 'SET_SELECTED_CATEGORY',
 		payload: item

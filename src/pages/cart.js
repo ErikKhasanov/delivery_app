@@ -1,25 +1,22 @@
 import React from 'react';
-import Layout from "../components/Layout/Layout";
 import {useSelector} from "react-redux";
+
+import Layout from "../components/Layout/Layout";
 import Header from "../components/Header/Header";
-import CartItem from "../components/Cart/CartItem";
+import CartGrid from "../components/Cart/CartGrid";
 
 const Cart = () => {
 	const {cart, foods} = useSelector(state => ({
-		cart: state.cart,
+		cart: state.cart.items,
 		foods: state.foods.items
 	}));
-	const renderItems = () => (
-		cart.items.map(item => (
-			<CartItem item={foods.find(foods => foods.id === item.id)}/>
-		))
-	)
+
+	const preparedFoods = cart.map(item => foods.find(foods => foods.id === item.id))
+
 	return (
 		<Layout>
 			<Header/>
-			<div>
-				{renderItems()}
-			</div>
+			<CartGrid foods={preparedFoods}/>
 		</Layout>
 	);
 };

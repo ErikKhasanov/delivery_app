@@ -1,6 +1,7 @@
 .cartItem{
   display: flex;
   align-items: center;
+  margin: 20px 0;
   &__img{
     width: 100px;
     height: auto;
@@ -9,10 +10,21 @@
   &__title{
     font-size: 24px;
     font-weight: bold;
-    margin: 0 20px;
+    margin-left: 20px;
+    margin-right: auto;
   }
   &__price{
     font-size: 18px;
     font-weight: bold;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  &__remove{
+    margin: 0 0 0 10px;
+    color: red;
+    &:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
   }
 }

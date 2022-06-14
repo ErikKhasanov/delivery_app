@@ -30,7 +30,7 @@ const Market = () => {
 		const count = 10;
 		const arr = [];
 		for(let i = 0; i < count; i++){
-			arr.push(<SkeletonCards />)
+			arr.push(<SkeletonCards key={i} />)
 		}
 		return arr
 	}, [])
